@@ -1,0 +1,38 @@
+/* ————— Predefined Classes ————— */
+.block {
+	display: block;
+}
+
+.flex {
+	display: flex;
+}
+.items-center {
+	align-items: center;
+}
+.justify-center {
+	justify-content: center;
+}
+.justify-between {
+	justify-content: space-between;
+}
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+.mr-05 {
+	margin-right: 0.5rem;
+}
+
+.h100 {
+	height: 100%;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}

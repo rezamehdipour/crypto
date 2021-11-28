@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon.png">
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/js/all.min.js"
+        integrity="sha512-yk7SvYYZqGS11tWcb6cyoKiwgrNBeCHC7RebrVa0QOySVjh6WjEjaBaBue+VvDBHEfAGa0Z8/b6+LhoGSeweaw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/predefined.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.min.css">
+
+    <!-- Page Title -->
+    <title>ICO Crypto</title>
+</head>
+
+<body id="body">
+    <!-- ——— Shape Background ——— -->
+    <div id="shapeBackground"></div>
+
+    <!-- ——— Header ——— -->
+    <div id="backdrop" onclick="toggleSidebar()"></div>
+    <header id="header">
+        <div class="container mx-auto">
+
+            <div class="wrapper">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="./images/logo.png" alt="ICO Crypto">
+                </div>
+
+                <!-- Menu -->
+                <aside id="sidebar">
+                    <div class="scroll">
+                        <nav class="nav">
+                            <ul>
+                                <li>
+                                    <a href="#" onclick="toggleMega(this)">
+                                        <span>Home</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+
+                                    <div class="mega mega-5">
+                                        <ul>
+                                            <li><a href="#">Azalea<span class="badge badge-light">V1.6</span></a></li>
+                                            <li><a href="#">Gentian<span class="badge badge-light">V1.6</span></a></li>
+                                            <li><a href="#">Zinnia</a></li>
+                                            <li><a href="#">Salvia<span class="badge badge-light">V1.6</span></a></li>
+                                            <li><a href="#">Lungwort<span class="badge badge-light">V1.6</span></a></li>
+                                            <li><a href="#">Jasmine</a></li>
+                                            <li><a href="#">Lobalia</a></li>
+                                            <li><a href="#">Muscari</a></li>
+                                            <li><a href="#">Lavender<span class="badge badge-light">V1.6</span></a></li>
+                                            <li><a href="#">Azure</a></li>
+                                            <li><a href="#">Default</a></li>
+                                            <li><a href="#">Linum</a></li>
+                                            <li><a href="#">Crocus<span class="badge badge-info">new</span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="toggleMega(this)">
+                                        <span>Pages</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+
+                                    <div class="mega mega-7">
+                                        <ul>
+                                            <li><a href="#">Azalea<span class="badge badge-dot"></span></a></li>
+                                            <li><a href="#">Gentian<span class="badge badge-dot"></span></a></li>
+                                            <li><a href="#">Zinnia</a></li>
+                                            <li><a href="#">Salvia<span class="badge badge-dot"></span></a></li>
+                                            <li><a href="#">Lungwort<span class="badge badge-dot"></span></a></li>
+                                            <li><a href="#">Jasmine</a></li>
+                                            <li><a href="#">Lobalia</a></li>
+                                            <li><a href="#">Muscari</a></li>
+                                            <li><a href="#">Lavender<span class="badge badge-dot"></span></a></li>
+                                            <li><a href="#">Azure</a></li>
+                                            <li><a href="#">Default</a></li>
+                                            <li><a href="#">Linum</a></li>
+                                            <li><a href="#">Crocus<span class="badge badge-info">new</span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="toggleMega(this)">
+                                        <span>Blog</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+
+                                    <div class="mega">
+                                        <ul>
+                                            <li><a href="#">Azalea</a></li>
+                                            <li><a href="#">Gentian</a></li>
+                                            <li><a href="#">Zinnia</a></li>
+                                            <li><a href="#">Salvia<span class="badge badge-info">new</span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="toggleMega(this)">
+                                        <span>Elements</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+
+                                    <div class="mega mega-7">
+                                        <ul>
+                                            <li><a href="#">Azalea</a></li>
+                                            <li><a href="#">Gentian</a></li>
+                                            <li><a href="#">Zinnia</a></li>
+                                            <li><a href="#">Salvia</a></li>
+                                            <li><a href="#">Lungwort</a></li>
+                                            <li><a href="#">Jasmine</a></li>
+                                            <li><a href="#">Lobalia</a></li>
+                                            <li><a href="#">Muscari</a></li>
+                                            <li><a href="#">Lavender<span class="badge badge-info">V1.6.2</span></a>
+                                            </li>
+                                            <li><a href="#">Azure</a></li>
+                                            <li><a href="#">Default</a></li>
+                                            <li><a href="#">Linum</a></li>
+                                            <li><a href="#">Crocus</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="toggleMega(this)">
+                                        <span>Blocks</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+
+                                    <div class="mega mega-5">
+                                        <ul>
+                                            <li><a href="#">Azalea</a></li>
+                                            <li><a href="#">Gentian</a></li>
+                                            <li><a href="#">Zinnia</a></li>
+                                            <li><a href="#">Salvia</a></li>
+                                            <li><a href="#">Lavender<span class="badge badge-warning">hot</span></a>
+                                            </li>
+                                            <li><a href="#">Azure</a></li>
+                                            <li><a href="#">Default</a></li>
+                                            <li><a href="#">Linum</a></li>
+                                            <li><a href="#">Crocus</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="auth">
+                            <a href="#" class="uButton uButton-reverse">Login</a>
+                        </div>
+                    </div>
+                </aside>
+
+                <div id="sidebarToggle" onclick="toggleSidebar()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <!-- ——— Intro [Section 1] ——— -->
+        <section id="intro">
+            <div class="container flex mx-auto">
+
+                <div class="wrapper">
+                    <div class="top">
+                        <div class="content">
+                            <h1 class="uTitle">World First Decentralized Marketplace with blockchain infrastructure</h1>
+                            <p class="uParagraph">The first decentralized Marketplace which makes simplifies and
+                                standarizes
+                                data with blockchain
+                                technology. We provides user-friendly, efficient and secure crypto solutions and
+                                utilizing
+                                blockchain technology.
+                            </p>
+                            <div class="button">
+                                <a href="#" class="uButton">Private sale</a>
+                            </div>
+                        </div>
+                        <div class="picture">
+                            <img src="./images/intro-picture.png" alt="intro">
+                        </div>
+                    </div>
+                    <div class="middle">
+                        <div class="progress">
+                            <div class="info">
+                                <ul>
+                                    <li>
+                                        Raised - <span>45,819 Tokens</span>
+                                    </li>
+                                    <li>
+                                        Target - <span>150,000 Tokens</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bar">
+                                <div class="percentage"></div>
+                                <div class="point" style="left: 25%">
+                                    Soft cap
+                                </div>
+                                <div class="point" style="left: 50%">
+                                    Crowdsale
+                                </div>
+                                <div class="point" style="left: 75%">
+                                    Hard Cap
+                                </div>
+                            </div>
+                        </div>
+                        <div class="status">
+                            <div>
+                                <h6>Current Bonus</h6>
+                                <h3>20%</h3>
+                                <p>Contributors can receive</p>
+                            </div>
+                            <div>
+                                <h6>The Bonus ends in</h6>
+                                <h3>2031</h3>
+                                <p>Ending soon</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="operations">
+                            <a href="#" class="pulsingIcon">
+                                <div class="icon">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <span>How it Works</span>
+                            </a>
+                            <a href="#">
+                                <div class="icon">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <span>Why buy Tokens now?</span>
+                            </a>
+                        </div>
+                        <div class="socials">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-medium-m"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-bitcoin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Ecosystems [Section 2] ——— -->
+        <section id="ecosystems" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="Core Ecosystems">Ecosystems</h2>
+                    </div>
+                    <div class="features uBackgroundCenter"
+                        style="background-image: url('./images/features-background.png')">
+                        <!-- Feature 1 -->
+                        <div class="feature">
+                            <h5>ONE MARKETPLACE</h5>
+                            <p>One International Marketplace that combines online store and services around the world.
+                                Buy any goods or services with our tokens.
+                            </p>
+                        </div>
+                        <!-- Feature 2 -->
+                        <div class="feature">
+                            <h5>TRANSPARENCY AND TRUST</h5>
+                            <p>One International Marketplace that combines online store and services around the world.
+                                Buy any goods or services with our tokens.
+                            </p>
+                        </div>
+                        <!-- Feature 3 -->
+                        <div class="feature">
+                            <h5>BLOCKCHAIN BASED PROFILES</h5>
+                            <p>One International Marketplace that combines online store and services around the world.
+                                Buy any goods or services with our tokens.
+                            </p>
+                        </div>
+                        <!-- Feature 4 -->
+                        <div class="feature">
+                            <h5>PAYMENT FLEXIBILITY</h5>
+                            <p>One International Marketplace that combines online store and services around the world.
+                                Buy any goods or services with our tokens.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Platform [Section 3] ——— -->
+        <section id="platform" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="Icox Products">Platform</h2>
+                    </div>
+
+                    <div class="types">
+                        <ul>
+                            <li>
+                                <a href="#" class="active">For Participators</a>
+                            </li>
+                            <li class="line"></li>
+                            <li>
+                                <a href="#">For Traders</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="content">
+                        <div class="detail">
+                            <h2>A Open Platform for our Participators</h2>
+                            <p class="uParagraph">Each participator can choose the trader and to sign a contract.</p>
+                            <div class="features">
+                                <!-- Feature 1 -->
+                                <div class="feature">
+                                    <div class="icon">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                                <!-- Feature 2 -->
+                                <div class="feature">
+                                    <div class="icon">
+                                        <i class="fab fa-btc"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                                <!-- Feature 3 -->
+                                <div class="feature">
+                                    <div class="icon">
+                                        <i class="fab fa-pagelines"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                                <!-- Feature 4 -->
+                                <div class="feature">
+                                    <div class="icon">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="picture flex-center">
+                            <div class="animatedCircle">
+                                <div class="circle big"></div>
+                                <div class="circle small"></div>
+                            </div>
+                            <img src="./images/platform-picture.png" alt="platform">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— MVP [Section 4] ——— -->
+        <section id="mvp" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="Mvp Apps">MVP</h2>
+                        <p>Our project is based on an existing cryptocurrency exchange.</p>
+                    </div>
+
+                    <div class="content">
+                        <div class="pictures">
+                            <img src="./images/mvp-circle.png" alt="circle" class="circle">
+                            <img src="./images/mvp-picture-desktop.png" alt="desktop" class="desktop">
+                            <img src="./images/mvp-picture-mobile.jpg" alt="mobile" class="mobile">
+                            <img src="./images/mvp-polygon.png" alt="polygon" class="polygon">
+                            <img src="./images/mvp-triangle.png" alt="triangle" class="triangle">
+                        </div>
+
+                        <div class="features">
+                            <ul>
+                                <!-- Feature 1 -->
+                                <li class="feature">
+                                    <div class="icon">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </li>
+                                <!-- Feature 2 -->
+                                <li class="feature">
+                                    <div class="icon">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </li>
+                                <!-- Feature 3 -->
+                                <li class="feature">
+                                    <div class="icon">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </li>
+                                <!-- Feature 4 -->
+                                <li class="feature">
+                                    <div class="icon">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>User have full access to trading consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="button">
+                                <a href="" class="uButton">Try demo free</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Tokens [Section 5] ——— -->
+        <section id="tokens" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="Token Details">Tokens</h2>
+                        <p>Breakdown of our Token Recipients.</p>
+                    </div>
+
+                    <div class="content">
+                        <!-- — Left — -->
+                        <div class="left">
+                            <div class="data">
+                                <span class="label">Tokens alocate for Public Sale</span>
+                                <span class="info">
+                                    <span class="percentage">45%</span>
+                                    <span class="sublabel">(Lockup)</span>
+                                </span>
+                            </div>
+                            <div class="data">
+                                <span class="label">Tokens alocate for Private Sale</span>
+                                <span class="info">
+                                    <span class="percentage">25%</span>
+                                    <span class="sublabel">(1 month lockup for half bonus)</span>
+                                </span>
+                            </div>
+                            <div class="data">
+                                <span class="label">Reserve Fund</span>
+                                <span class="info">
+                                    <span class="percentage">8%</span>
+                                    <span class="sublabel">(6 months lockup)</span>
+                                </span>
+                            </div>
+                            <div class="data">
+                                <span class="label">Team & Founder</span>
+                                <span class="info">
+                                    <span class="percentage">12%</span>
+                                    <span class="sublabel">(3 months lockup)</span>
+                                </span>
+                            </div>
+                            <div class="data">
+                                <span class="label">Bounty & Events</span>
+                                <span class="info">
+                                    <span class="percentage">6%</span>
+                                    <span class="sublabel">(1 months lockup)</span>
+                                </span>
+                            </div>
+                            <div class="data">
+                                <span class="label">Advisors & Partners</span>
+                                <span class="info">
+                                    <span class="percentage">4%</span>
+                                    <span class="sublabel">(6 months lockup)</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- — Chart — -->
+                        <div class="chart flex-center">
+                            <div class="circle">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <!-- — Right — -->
+                        <div class="right">
+                            <div class="token">
+                                <div class="info">Start Time</div>
+                                <h4 class="date">15 Sep, 2018</h4>
+                            </div>
+                            <div class="token">
+                                <div class="info">Start Time</div>
+                                <h4 class="date">15 Sep, 2018</h4>
+                            </div>
+                            <div class="token">
+                                <div class="info">Start Time</div>
+                                <h4 class="date">15 Sep, 2018</h4>
+                            </div>
+                            <div class="token">
+                                <div class="info">Start Time</div>
+                                <h4 class="date">15 Sep, 2018</h4>
+                            </div>
+                            <div class="token">
+                                <div class="info">Start Time</div>
+                                <h4 class="date">15 Sep, 2018</h4>
+                            </div>
+                            <div class="token">
+                                <div class="info">Start Time</div>
+                                <h4 class="date">15 Sep, 2018</h4>
+                            </div>
+                            <div class="token">
+                                <div class="info">Start Time</div>
+                                <h4 class="date">15 Sep, 2018</h4>
+                            </div>
+                            <div class="token">
+                                <div class="info">Start Time</div>
+                                <h4 class="date">15 Sep, 2018</h4>
+                            </div>
+                            <div class="token">
+                                <div class="info">Start Time</div>
+                                <h4 class="date">15 Sep, 2018</h4>
+                            </div>
+                            <div class="token">
+                                <div class="info">Start Time</div>
+                                <h4 class="date">15 Sep, 2018</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Roadmap [Section 6] ——— -->
+        <section id="roadmap" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="Timeline">Roadmap</h2>
+                        <p>ICO Crypto is developing a global data-driven platform for the world.
+                            Powered by blockchain and smart contracts.
+                        </p>
+                    </div>
+
+                    <div class="timeline">
+                        <div class="scroll">
+                            <div class="line">
+                                <div class="point active">
+                                    <div class="top">
+                                        <h6 class="year">Q1 2016</h6>
+                                    </div>
+                                    <div class="bottom">
+                                        <h5>Jan - Apr 2018</h5>
+                                        <p>Creation of a decentralize martketplace to neural network adjacent
+                                            coefficients.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="point active">
+                                    <div class="top">
+                                        <h6 class="year">Q2 2016</h6>
+                                    </div>
+                                    <div class="bottom">
+                                        <h5>Jul - Aug 2018</h5>
+                                        <p>Start of the ICO Crypto Platform Development and Introduction of advertiser
+                                            auctions
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="point">
+                                    <div class="top">
+                                        <h6 class="year">Q3 2016</h6>
+                                    </div>
+                                    <div class="bottom">
+                                        <h5>Sep - Oct 2018</h5>
+                                        <p>Start Private Token Sale Round to our contributors.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="point">
+                                    <div class="top">
+                                        <h6 class="year">Q4 2016</h6>
+                                    </div>
+                                    <div class="bottom">
+                                        <h5>Nov - Dec 2018</h5>
+                                        <p>Launch of the mobile Best versions of the Publisher application and Press
+                                            Tour.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="uNavigationButtons">
+                            <button class="previous" disabled><i class="fas fa-chevron-left"></i></button>
+                            <button class="next"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Our Team [Section 7] ——— -->
+        <section id="team" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="Core Team">Our Team</h2>
+                        <p>With help from our teams, contributors and investors these are the milestones we are looking
+                            forward to achieve.
+                        </p>
+                    </div>
+
+                    <div class="members">
+                        <!-- Member 1 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/team-member-1.jpg" alt="member">
+                            </div>
+                            <h5 class="name">Louis Baker</h5>
+                            <span class="position">CEO & Lead Blockchain</span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- Member 2 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/team-member-2.jpg" alt="member">
+                            </div>
+                            <h5 class="name">Stefan Harary</h5>
+                            <span class="position">CTO & Senior Developer</span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- Member 3 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/team-member-3.jpg" alt="member">
+                            </div>
+                            <h5 class="name">Moises Teare</h5>
+                            <span class="position">Blockchain App Developer</span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- Member 4 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/team-member-4.jpg" alt="member">
+                            </div>
+                            <h5 class="name">Louis Baker</h5>
+                            <span class="position">CEO & Lead Blockchain</span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="uNavigationButtons">
+                        <button class="previous" disabled><i class="fas fa-chevron-left"></i></button>
+                        <button class="next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Board Member [Section 8] ——— -->
+        <section id="board">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="Advisors">Board Member</h2>
+                        <p>Our advisors and board members are great part of our team.</p>
+                    </div>
+
+                    <div class="boardMembers">
+                        <!-- Board 1 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/team-member-1.jpg" alt="member">
+                            </div>
+                            <h5 class="name">Louis Baker</h5>
+                            <span class="position">General manager, Coindexin</span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- Board 2 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/team-member-2.jpg" alt="member">
+                            </div>
+                            <h5 class="name">Stefan Harary</h5>
+                            <span class="position">Legal Advisor, TokenWiz Project</span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- Board 3 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/team-member-3.jpg" alt="member">
+                            </div>
+                            <h5 class="name">Moises Teare</h5>
+                            <span class="position">Managing Director, ICOCrypto</span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- Board 4 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/team-member-4.jpg" alt="member">
+                            </div>
+                            <h5 class="name">Louis Baker</h5>
+                            <span class="position">Insurance Lead & Financial Advisor</span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- Board 5 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/team-member-2.jpg" alt="member">
+                            </div>
+                            <h5 class="name">Stefan Harary</h5>
+                            <span class="position">Ecosystem Manager & DevOps Engineer</span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- Board 6 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/team-member-3.jpg" alt="member">
+                            </div>
+                            <h5 class="name">Moises Teare</h5>
+                            <span class="position">Member of the Oparation Board</span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Our Parterns -->
+                    <div class="partners">
+                        <h6>Our Partners</h6>
+                        <ul>
+                            <li><a href="#"><img src="./images/board-partner-1.png" alt=""></a></li>
+                            <li><a href="#"><img src="./images/board-partner-2.png" alt=""></a></li>
+                            <li><a href="#"><img src="./images/board-partner-3.png" alt=""></a></li>
+                            <li><a href="#"><img src="./images/board-partner-4.png" alt=""></a></li>
+                            <li><a href="#"><img src="./images/board-partner-5.png" alt=""></a></li>
+                            <li><a href="#"><img src="./images/board-partner-1.png" alt=""></a></li>
+                            <li><a href="#"><img src="./images/board-partner-2.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Documents [Section 9] ——— -->
+        <section id="documents" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="Downloads">Documents</h2>
+                        <p>Download the whitepaper and learn about ICO Token, the unique ICO Crypto approach and the
+                            team/advisors.</p>
+                    </div>
+
+                    <ul>
+                        <!-- Image 1 -->
+                        <li>
+                            <div class="image">
+                                <img src="./images/documents-paper-1.jpg" alt="">
+                            </div>
+                            <h5>
+                                White Paper
+                                <small>(2016)</small>
+                            </h5>
+                            <a href="#"><i class="fas fa-cloud-download-alt"></i></a>
+                            <div class="language">English</div>
+                        </li>
+                        <!-- Image 2 -->
+                        <li>
+                            <div class="image">
+                                <img src="./images/documents-paper-2.jpg" alt="">
+                            </div>
+                            <h5>
+                                White Paper
+                                <small>(2016)</small>
+                            </h5>
+                            <a href="#"><i class="fas fa-cloud-download-alt"></i></a>
+                            <div class="language">English</div>
+                        </li>
+                        <!-- Image 3 -->
+                        <li>
+                            <div class="image">
+                                <img src="./images/documents-paper-3.jpg" alt="">
+                            </div>
+                            <h5>
+                                White Paper
+                                <small>(2016)</small>
+                            </h5>
+                            <a href="#"><i class="fas fa-cloud-download-alt"></i></a>
+                            <div class="language">English</div>
+                        </li>
+                        <!-- Image 4 -->
+                        <li>
+                            <div class="image">
+                                <img src="./images/documents-paper-4.jpg" alt="">
+                            </div>
+                            <h5>
+                                White Paper
+                                <small>(2016)</small>
+                            </h5>
+                            <a href="#"><i class="fas fa-cloud-download-alt"></i></a>
+                            <div class="language">English</div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— News [Section 10] ——— -->
+        <section id="news" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="press">
+                        <div class="head uSectionHead">
+                            <h2 title="Press">In Press</h2>
+                        </div>
+
+                        <div class="presses">
+                            <img src="./images/news-press-1.png" alt="press">
+                            <img src="./images/news-press-2.png" alt="press">
+                            <img src="./images/news-press-3.png" alt="press">
+                            <img src="./images/news-press-4.png" alt="press">
+                            <img src="./images/news-press-5.png" alt="press">
+                            <img src="./images/news-press-6.png" alt="press">
+                            <img src="./images/news-press-7.png" alt="press">
+                            <img src="./images/news-press-8.png" alt="press">
+                            <img src="./images/news-press-9.png" alt="press">
+                        </div>
+
+                        <div class="uNavigationButtons">
+                            <button class="previous" disabled><i class="fas fa-chevron-left"></i></button>
+                            <button class="next"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="news">
+                        <div class="head uSectionHead">
+                            <h2 title="Update">News</h2>
+                        </div>
+
+                        <div class="updates">
+                            <div class="update" style="background-image: url('./images/news-update-1.jpg');">
+                                <div class="content">
+                                    <div class="text">
+                                        <h5>Fintech G20 Global Summit 2019</h5>
+                                        <p>New Youk, United State</p>
+                                    </div>
+                                    <div class="learn">
+                                        <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="update" style="background-image: url('./images/news-update-2.jpg');">
+                                <div class="content">
+                                    <div class="text">
+                                        <h5>Fintech G20 Global Summit 2019</h5>
+                                        <p>New Youk, United State</p>
+                                    </div>
+                                    <div class="learn">
+                                        <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="uNavigationButtons">
+                            <button class="previous" disabled><i class="fas fa-chevron-left"></i></button>
+                            <button class="next"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— FAQ [Section 11] ——— -->
+        <section id="faq">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head uSectionHead">
+                        <h2 title="FAQS">FAQS</h2>
+                        <p>Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others. If you have
+                            any other questions, please get in touch.</p>
+                    </div>
+
+                    <ul class="categories">
+                        <li><a href="#" class="active">General Questions</a></li>
+                        <li><a href="#">ICO Questions</a></li>
+                        <li><a href="#">Token Sales</a></li>
+                        <li><a href="#">investors</a></li>
+                    </ul>
+
+                    <ul class="questions">
+                        <li>
+                            <div class="question" onclick="toggleAccordion(this)">
+                                <h5>What is ICO Crypto?</h5>
+                                <button>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </div>
+                            <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin.
+                                You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque
+                                ipsa.</p>
+                        </li>
+                        <li>
+                            <div class="question" onclick="toggleAccordion(this)">
+                                <h5>What cryptocurrencies can I use to purchase?</h5>
+                                <button>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </div>
+                            <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin.
+                                You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque
+                                ipsa.</p>
+                        </li>
+                        <li>
+                            <div class="question" onclick="toggleAccordion(this)">
+                                <h5>How can I participate in the ICO Token sale?</h5>
+                                <button>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </div>
+                            <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin.
+                                You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque
+                                ipsa.</p>
+                        </li>
+                        <li>
+                            <div class="question" onclick="toggleAccordion(this)">
+                                <h5>How do I benefit from the ICO Token?</h5>
+                                <button>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </div>
+                            <p>Once ICO period is launched, You can purchased Token with Etherum, Bitcoin or Litecoin.
+                                You can also tempor incididunt ut labore et dolore magna aliqua sed do eiusmod eaque
+                                ipsa.</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Contact US [Section 12] ——— -->
+        <section id="contact" class="uSection">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="map">
+                        <div class="top">
+                            <div class="animatedCircles">
+                                <div class="circle"></div>
+                                <div class="smallCircle"></div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    +44 0123 4567
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    info@company.com
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fab fa-telegram-plane"></i>
+                                    </div>
+                                    Join us on Telegram
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="socials">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-medium-m"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-bitcoin"></i></a></li>
+                                <li><a href="#"><i class="fab fa-github"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h2>Contact Us</h2>
+                        <p>We are always open and we welcome and questions you have for our team. If you wish to get in
+                            touch, please fill out the form below. Someone from our team will get back to you shortly.
+                        </p>
+                        <form>
+                            <div class="inputs">
+                                <div class="formGroup">
+                                    <label for="contactName">Your name</label>
+                                    <input type="text" id="contactName" placeholder="Introduce yourself">
+                                </div>
+                                <div class="formGroup">
+                                    <label for="contactEmail">Your email</label>
+                                    <input type="text" id="contactEmail" placeholder="Who do we replay to">
+                                </div>
+                                <div class="formGroup">
+                                    <label for="contactMessage">Your message</label>
+                                    <textarea id="contactMessage" placeholder="Leave your question or comment here"
+                                        rows="5"></textarea>
+                                </div>
+                            </div>
+                            <div class="button">
+                                <button class="uButton">
+                                    Send
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ——— Footer ——— -->
+    <footer id="footer">
+        <div class="container mx-auto">
+
+            <div class="wrapper">
+                <div class="copyright">
+                    Copyright © 2019 ICO. Handcrafted by IO.
+                </div>
+
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms of sales</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- Javascript -->
+    <script>
+
+        // ——— Header OnScroll ———
+        const header = document.getElementById('header');
+        function headerOnScroll(event) {
+            if (window.scrollY > 0) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        }
+        document.addEventListener('scroll', headerOnScroll);
+
+        // ——— Toggle Sidebar ———
+        const sidebar = document.getElementById('sidebar');
+        const sidebarToggle = document.getElementById('sidebarToggle');
+        const body = document.getElementById('body');
+        const backdrop = document.getElementById('backdrop');
+        function toggleSidebar() {
+            if (sidebarToggle.classList.contains('active')) { // if Sidebar was OPEN!
+                sidebar.classList.remove('open');
+                sidebarToggle.classList.remove('active');
+                body.classList.remove('noScroll');
+                backdrop.classList.remove('show');
+            } else { // If Sidebar Was CLOSED!
+                sidebar.classList.add('open');
+                sidebarToggle.classList.add('active');
+                body.classList.add('noScroll');
+                backdrop.classList.add('show');
+            }
+        }
+
+        // ——— Toggle Mega Menu ———
+        function toggleMega(theA) {
+            const theMega = theA.nextElementSibling;
+            if (screen.width < 992) {
+                if (theA.classList.contains('active')) {
+                    theA.classList.remove('active');
+                    theMega.classList.remove('open');
+                } else {
+                    theA.classList.add('active');
+                    theMega.classList.add('open');
+                }
+            }
+        }
+
+        // ——— Toggle Accordion ———
+        function toggleAccordion(question) {
+            const paragraph = question.nextElementSibling;
+            if (question.classList.contains('show')) {
+                question.classList.remove('show');
+                paragraph.classList.remove('show');
+            } else {
+                question.classList.add('show');
+                paragraph.classList.add('show');
+            }
+        }
+    </script>
+</body>
+
+</html>
